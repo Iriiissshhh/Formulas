@@ -15,4 +15,7 @@ int main()
     area = 0.5 * (a + b) * c;
     printf("Area of trapezium: %f\n", area);
     return 0;
+
+
+    //moified
 }
