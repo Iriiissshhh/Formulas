@@ -5,7 +5,7 @@ price_before_discount = price * quantity
 if price_before_discount > 50:
     discount = (10/100) * price_before_discount
     final_price = price_before_discount - discount
-    print ("Your final price is",final_price)
+    print (f"Your final price is {final_price:.2f}")
 else:
-    print("Your final price is", price_before_discount)
+    print(f"Your final price is {price_before_discount:.2f}")
 
