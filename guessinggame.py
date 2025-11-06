@@ -1,6 +1,7 @@
+import random 
 while True:
-    number = 8
-    guess = int(input("Enter guess:"))
+    number = random.randint(1,20)
+    guess = int(input("Enter guess(1-20):"))
     if guess > number:
         print("Number is too high")
     elif guess < number:
